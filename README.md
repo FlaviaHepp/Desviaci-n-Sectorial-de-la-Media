@@ -80,3 +80,49 @@ Desvío < –2 →
 
 ## 👤Autora
 Flavia Hepp Proyecto de SQL aplicó un análisis de riesgo basado en eventos.
+
+***
+📉 **Cuando todo un sector está “demasiado barato”… algo interesante puede pasar**
+
+No siempre las oportunidades están en una acción individual.
+A veces, es **todo un sector** el que entra en zona extrema.
+
+👉 Analicé la desviación del precio promedio sectorial respecto a su **SMA 20**, normalizada por la volatilidad (tipo Bandas de Bollinger).
+
+💡 **Insight clave:**
+Hay sectores que actualmente están cotizando a más de **2 desviaciones estándar por debajo de su media**.
+Esto sugiere una condición de **sobreventa extrema a nivel sectorial**.
+
+---
+
+📊 **¿Qué medí?**
+
+* Precio promedio del sector
+* Media móvil de 20 días (SMA 20 sectorial)
+* Desviación estándar del sector
+* Z-score del desvío respecto a la media
+
+---
+
+🧠 **¿Cómo interpretarlo?**
+
+* Desvío < -2 → sobreventa extrema
+* Posible **reversión a la media**
+* O bien → señal de deterioro estructural (¡cuidado con el contexto!)
+
+---
+
+⚡ **¿Por qué importa?**
+
+Porque permite detectar:
+
+* Oportunidades de **mean reversion a nivel macro-sectorial**
+* Sectores “castigados en bloque”
+* Momentos donde el mercado puede estar sobrerreaccionando
+
+---
+
+📌 Pregunta para la comunidad:
+¿Prefieren buscar oportunidades en acciones individuales… o en sectores completos cuando están en extremos?
+
+#QuantFinance #Trading #DataScience #StockMarket #MeanReversion #SectorAnalysis #Analytics #SQL
